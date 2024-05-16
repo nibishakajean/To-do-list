@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <title>Flights</title>
-    </head>
-    <body>
-        <main>
-            <div class="img">
-                <img src="./assets/flight.jpeg" alt="flight" />
-            </div>
-            <div id="parent">
-                <div class="flight test">
-                    <div class="name">Name</div>
-                    <div class="plane">Plane</div>
-                    <div class="departureDate">Departure Date</div>
-                    <div class="origin">Origin</div>
-                    <div class="arrivalDate">Arrival Date</div>
-                    <div class="destination">Destination</div>
-                    <div class="stops">Stops</div>
-                </div>
-            </div>
-        </main>
-        <script type="module" src="./src/init.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta n ame="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<p>To do list</p>
+
+    <div class="todo-input-grid">
+        <input placeholder="To do name" 
+        class="js-name-input name-input">
+        <input type="date"
+        class = "js-due-date-input due-date-input">
+        <button onclick=" 
+        addTodo();
+        " class="add-todo-button">Add</button>
+    </div>
+
+<div class="js-todo-list todo-grid"> </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
